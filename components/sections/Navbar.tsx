@@ -30,7 +30,7 @@ export default function Navbar() {
         borderBottom: scrolled ? '1px solid var(--border)' : 'none',
       }}
     >
-      <div className="max-w-6xl mx-auto  py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 md:px-0 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 group">
           <Logo size={34} />

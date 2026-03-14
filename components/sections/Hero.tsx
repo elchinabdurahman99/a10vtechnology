@@ -19,7 +19,7 @@ export default function Hero() {
   const h = t.hero
 
   return (
-    <section className="min-h-screen flex flex-col justify-center pt-24 pb-0" style={{ background:'var(--bg)' }}>
+    <section className="min-h-screen flex flex-col justify-center pt-24 pb-0 px-6 md:px-0" style={{ background:'var(--bg)' }}>
       <div className="max-w-6xl mx-auto w-full ">
 
         {/* Split grid */}
